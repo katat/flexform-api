@@ -1,4 +1,4 @@
-## Sample node.js express app with SummonJS framework
+## Sample node.js express app with [SummonJS](https://github.com/katat/summonjs) framework
 
 ### Install
 `npm install`
