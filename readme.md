@@ -1,10 +1,10 @@
 ## Sample node.js express app with SummonJS framework
 
 ### Install
-npm install
+`npm install`
 
 ### Unit Tests
-gulp
+`gulp`
 
 ### Startup
-node app/init.js
+`node app/init.js`
