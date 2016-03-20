@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(methodOverride());
 
-//init container
+//init summonjs
 var depConfigs = require('./depend.json');
 var summon = require('summonjs')({
     configs: depConfigs

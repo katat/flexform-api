@@ -1,6 +1,8 @@
-var configFile = process.env.NODE_ENV !== undefined ? process.env.NODE_ENV + '.json' : 'dev.json';
-var config = require('./config/' + configFile);
-
+var config;
 global.app = require('../app');
-global.app.summon.register('Configs', config);
+if (process.env.NODE_ENV !== undefined) {
+    config = require('./config/' + process.env.NODE_ENV + '.json');
+    global.app.summon.register('Configs', config);
+}
+
 global.app.setup();

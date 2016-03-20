@@ -3,7 +3,6 @@ var assert = require('assert');
 var async = require('async');
 describe('API tests', function() {
     beforeEach(function () {
-        app.summon.get('FormDB');
         app.summon.get('mockgoose').reset();
     });
 
