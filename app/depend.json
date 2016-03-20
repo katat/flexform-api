@@ -1,0 +1,16 @@
+{
+	"dependency": {
+		"FormDB": "./dbs/form",
+
+		"FormModel": "./models/form",
+
+		"FormController": "./controllers/form",
+
+		"FormRoute": "./routes/form",
+
+		"mongoose": {
+			"path": "mongoose",
+			"shim": true
+		}
+	}
+}

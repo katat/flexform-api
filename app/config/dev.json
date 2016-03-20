@@ -1,0 +1,4 @@
+{
+    "apiPort": 4001,
+    "dbHost": "mongodb://mongo:password@localhost/formdb"
+}
